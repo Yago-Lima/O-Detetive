@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco_1"
+    android:padding="4dp"
+    tools:context=".ActivityJogo">
+
+    <include
+        android:id="@+id/mytoolbar"
+        layout="@layout/mytoolbar_jogo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingEnd="4dp"
+        android:text="@string/tentativas"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/coracao3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/coracao_vermelho"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/coracao2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/coracao_vermelho"
+        app:layout_constraintEnd_toStartOf="@+id/coracao3"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/coracao1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/coracao_vermelho"
+        app:layout_constraintEnd_toStartOf="@+id/coracao2"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar">
+    </ImageView>
+
+
+
+    <TextView
+        android:id="@+id/tema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tema"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/dica1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <TextView
+        android:id="@+id/dica1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:text="@string/dica"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/dica2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="@string/dica"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/dica3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="244dp"
+        android:text="@string/dica"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:text="@string/digite_seu_palpite"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextPalpite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black"
+        android:hint="@string/digite_aqui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonTentar"
+        android:layout_width="168dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/tentar"
+        android:backgroundTint="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPalpite" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

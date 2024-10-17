@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">O Detetive</string>
+    <string name="vamos_jogar">Vamos Jogar</string>
+    <string name="jogar_novamente">Jogar Novamente</string>
+    <string name="tentativas">tentativas:</string>
+    <string name="dica">dica</string>
+    <string name="digite_seu_palpite">Digite seu Palpite:</string>
+    <string name="digite_aqui">digite aqui</string>
+    <string name="tentar">Tentar</string>
+    <string name="deseja_jogar_novamente">Deseja Jogar Novamente ?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Nâo</string>
+    <string name="tema">Tema</string>
+    <string name="teste">teste</string>
+    <string name="pontos">Pontos:</string>
+    <string name="nome">Nome:</string>
+    <string name="partidas_salvas">Partidas</string>
+    <string name="pontua_o">Pontuação</string>
+    <string name="mensagem_de_erro_ou_acerto">Mensagem de erro ou acerto</string>
+    <string name="resultado_da_partida">Resultado da partida</string>
+    <string name="acertou">Parabéns! Você Ganhou!</string>
+    <string name="errou">Que pena! Você Perdeu!</string>
+    <string name="detetive">Detetive: </string>
+    <string name="quase_errou">Você Quase Perdeu!</string>
+    <string name="smiley">smiley</string>
+    <string name="digite_seu_nome">Digite seu Nome</string>
+    <string name="ver_pontua_o">Ver pontuação</string>
+    <string name="sair">sair</string>
+
+    <string-array name="pergunta1">
+        <item>Música</item>
+        <item>Roberto Carlos</item>
+        <item>Jovem Guarda</item>
+        <item>Perna de Pau</item>
+        <item>Só aparece fim de ano</item>
+    </string-array>
+
+    <string-array name="pergunta2">
+        <item>Música</item>
+        <item>Ozzy Osbourne</item>
+        <item>Inicio a Carreira na decada de 70</item>
+        <item>Vocalista Britânico</item>
+        <item>Mordeu um morcego no palco</item>
+    </string-array>
+
+    <string-array name="pergunta3">
+        <item>Tecnologia</item>
+        <item>Bill Gates</item>
+        <item>Homem mais rico do mundo</item>
+        <item>Philantropo</item>
+        <item>Criador da Microsoft</item>
+    </string-array>
+
+    <string-array name="pergunta4">
+        <item>Cidades</item>
+        <item>Nova York</item>
+        <item>Conhecida como Big Apple</item>
+        <item>Empire State Building</item>
+        <item>Times Square</item>
+    </string-array>
+
+    <string-array name="pergunta5">
+        <item>Física</item>
+        <item>Albert Einstein</item>
+        <item>Teoria da Relatividade</item>
+        <item>Nobel de Física</item>
+        <item>Nasceu na Alemanha</item>
+    </string-array>
+
+    <string-array name="pergunta6">
+        <item>Arte</item>
+        <item>Pablo Picasso</item>
+        <item>Criador de Les Demoiselles d\'Avignon</item>
+        <item>Cubismo</item>
+        <item>Espanhol</item>
+    </string-array>
+
+    <string-array name="pergunta7">
+        <item>Arte</item>
+        <item>Mona Lisa</item>
+        <item>Pintado por Leonardo da Vinci</item>
+        <item>Localizado no Museu do Louvre</item>
+        <item>Sorriso enigmático</item>
+    </string-array>
+
+    <string-array name="pergunta8">
+        <item>Geografia</item>
+        <item>Brasil</item>
+        <item>País sede dos Jogos Olímpicos de 2016</item>
+        <item>Cristo Redentor</item>
+        <item>Amazonas</item>
+    </string-array>
+
+    <string-array name="pergunta9">
+        <item>Geografia</item>
+        <item>Londres</item>
+        <item>Palácio de Buckingham</item>
+        <item>Abadia de Westminster</item>
+        <item>Big Ben</item>
+    </string-array>
+
+    <string-array name="pergunta10">
+        <item>Cores</item>
+        <item>Azul</item>
+        <item>Comumente associada à calma e tranquilidade</item>
+        <item>Cor primária no modelo de cor RGB</item>
+        <item>Cor do céu em um dia claro</item>
+    </string-array>
+
+</resources>

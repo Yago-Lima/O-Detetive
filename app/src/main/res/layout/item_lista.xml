@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/borda"
+
+        >
+        <ImageView android:id="@+id/imagem"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    />
+                <TextView android:id="@+id/nome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/pontos"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/pontos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/pontos"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
